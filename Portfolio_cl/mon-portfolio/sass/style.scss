@@ -1,0 +1,79 @@
+@import "./Header.scss";
+@import "./Footer.scss";
+@import "./Projet.scss";
+@import "./Contact.scss";
+@import "./Experience.scss";
+@import "./Propos.scss";
+@import "./Competence.scss";
+@import "./Modal.scss";
+* {
+    margin: 0;
+    padding: 0;    
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+}
+main{
+    background-color: rgb(7,2,42);
+    width: 100%;
+}
+.toTop{
+    background-color: rgb(32,35,42);
+    border-radius: 4px 4px 0 0;
+    border-top: 2px solid rgb(48,153,205);
+    border-right: 2px solid rgb(48,153,205);
+    border-left: 2px solid rgb(48,153,205);
+    bottom: 0;
+    color: rgb(48,153,205);
+    font-size: 20px;
+    height: 30px;
+    position: fixed;
+    right: 105px;
+    text-align: center;
+    width: 48px;
+    opacity: 1;
+    z-index: 100000;
+    display: block;
+    animation: monte;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.noTop{
+    display: none;
+}
+@keyframes monte {
+    0% { bottom: -50px }
+    100% { bottom: 0 }
+}
+/* FIN du bouton pour monter  */
+.iii{
+    // color: rgb(65, 170, 199);
+    color: rgb(48,153,205);
+    font-size: 40px;
+}
+.link-propos{
+    text-align: center;
+    position: absolute;
+    left: calc(50% - 20px);
+    top: calc(100% - 50px);
+}
+.showcase {
+    height: 300px;
+}
+.showcase h1 {
+    font-size: 50px;
+    line-height: 1.3;
+    position: relative;
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes heading {
+    0% { top: -50px }
+    100% { top: 200px }
+}

@@ -1,0 +1,95 @@
+
+.competence{
+    padding: 60px;
+    &-titre{
+        font-family: "Dosis", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 50px;
+        text-shadow: 2px 4px 20px rgb(189,20,224);
+        letter-spacing: 15px;  
+    }
+}
+.competence-container{
+    padding-top: 60px;
+    .competence-langages{
+        text-align: left;
+        h4{
+            letter-spacing: 2px;
+            padding-bottom: 25px;
+        }
+        p{
+            letter-spacing: 2px;
+            color: rgb(189,20,224);
+        }
+    }
+    .competence-div-logo{
+        padding: 30px;
+        ul{
+            display: flex !important;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            li{
+                list-style: none;
+                .competence-logo{
+                    width: 180px;
+                    height: 170px;
+                } 
+            }
+        }
+    }
+}
+@media screen and (max-width : 792px) {
+    .competence-logo{
+        width: 90px !important;
+        height: 90px !important;
+    }
+    .competence-langages{
+        h4{
+            font-size: 20px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+}
+@media screen and (max-width : 592px) {
+    .competence-logo{
+        width: 70px !important;
+        height: 70px !important;
+    }
+    .competence-langages{
+        h4{
+            font-size: 16px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+}
+@media screen and (max-width : 860px) {
+    .competence-titre{
+        font-size: 50px !important;
+        letter-spacing: 2px !important;  
+        text-transform: none !important;
+    }
+}
+@media screen and (max-width : 610px) {
+    .competence-titre{
+        font-size: 30px !important;
+        letter-spacing: 1px !important;  
+        text-transform: none !important;
+    }
+}
+@media screen and (max-width : 410px) {
+    .competence-div-logo{
+        ul{
+            li{
+                .competence-logo{
+                    width: 10px;
+                    height: 70px;
+                } 
+            }
+        }
+    }
+}

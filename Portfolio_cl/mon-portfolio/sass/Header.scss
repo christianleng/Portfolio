@@ -1,0 +1,125 @@
+header{
+    padding-top: 290px;
+    padding-bottom: 300px;
+    background-image: url("../src/image/site/blue.jpeg");
+    filter: brightness(90%);
+    width: auto;
+    margin: auto;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-container{
+    padding-left: 10px;
+    padding: 0px 10px 0 10px;
+    text-align: left;
+}
+.header-metier{
+    font-family: "Dosis", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 70px;
+    text-shadow: 2px 4px 20px #924DF9;
+    letter-spacing: 15px;  
+}
+.header-nom{
+    font-family: "Dosis", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 2px 4px 20px #924DF9;
+    letter-spacing: 2px;
+}
+.header-text{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    text-shadow: 2px 4px 20px #924DF9;
+    color: #c9bdbd;
+}
+@media screen and (max-width : 733px) {
+    .header-nom{
+        font-size: 48px;
+    }
+}
+@media screen and (max-width : 575px) {
+    .header-nom{
+        font-size: 35px;
+    }
+    .header-text{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width : 500px) {
+    .header-nom{
+        font-size: 35px;
+    }
+    .header-text{
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width : 530px) {
+    .header-nom{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width : 430px) {
+    .header-nom{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width : 365px) {
+    .header-nom{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width : 733px) {
+    .header-metier{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width : 659px) {
+    .header-metier{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width : 575px) {
+    .header-metier{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width : 499px) {
+    .header-metier{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width : 461px) {
+    .header-metier{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width : 416px) {
+    .header-metier{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width : 380px) {
+    .header-metier{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width : 357px) {
+    .header-metier{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width : 357px) {
+    .header-nom{
+        font-size: 15px;
+    }
+    .header-text{
+        font-size: 15px;
+    }
+}

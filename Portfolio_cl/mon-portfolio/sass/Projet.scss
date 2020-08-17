@@ -1,0 +1,91 @@
+.projet{
+  padding: 70px 60px 70px 60px;
+}
+.projet-titre{
+  font-family: "Dosis", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  text-shadow: 2px 4px 20px rgb(169, 12, 201);
+}
+.container-projet-box{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 40px;
+  flex-wrap: wrap;
+  margin: auto;  
+  padding-top: 60px;
+}
+.projet-box{
+  padding-bottom: 40px;
+}
+.projet-box-un{
+  width: 350px;
+  height: 415px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  background: rgb(32,35,42);
+  color: white;
+  h3{
+    letter-spacing: 1.5px;
+  }
+  .projet-date{
+    color: #c9bdbd;
+  }
+  p{
+    color: rgb(169, 12, 201);
+  }
+}
+.php-bottom{
+  padding-bottom: 29px;
+}
+.html-bottom{
+  padding-bottom: 80px;
+}
+.ul-link-projet{
+  display: inline;
+  margin: auto;
+  text-align: center;
+  list-style: none;
+  li{
+      padding-top: 10px;
+      button{
+          color: rgb(169, 12, 201);
+          border: 2px solid rgb(169, 12, 201);
+      }
+      a{
+        color: inherit;
+      }
+  }
+}
+.description-langage-size{
+  font-size: 20px;
+}
+.piephp-p{
+  padding-bottom: 24px;
+}
+.maquette-p{
+  padding-bottom: 70px;
+}
+.screen-printngo{
+  width: 274px;
+}
+@media screen and (max-width : 860px) {
+  .projet-titre{
+      font-size: 50px !important;
+  }
+}
+@media screen and (max-width : 610px) {
+  .projet-titre{
+      font-size: 30px !important;
+  }
+}
+@media screen and (max-width : 610px) {
+  .projet-box-un{
+      width: 300px;
+      height: 436px;
+  }
+  .screen-printngo{
+    width: 260px;
+  }
+}

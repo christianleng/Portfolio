@@ -1,0 +1,126 @@
+.main-propos-coordonnes{
+    padding: 60px;
+}
+.propos-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    img{
+        border-radius: 10px;        
+    }
+}
+.propos{
+    padding: 30px;
+    &-titre{
+        font-family: "Dosis", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 60px;
+        text-shadow: 2px 4px 20px rgb(189,20,224);
+        letter-spacing: 15px;        
+    }
+    &-text{
+        color: rgb(189,20,224);
+        padding-top: 60px;       
+        padding-left: 260px; 
+        padding-right: 260px; 
+        letter-spacing: 2px;
+    }
+}
+@media screen and (max-width : 915px) {
+    .propos-text{
+        color: rgb(189,20,224);
+        padding-top: 0;       
+        padding-left: 0; 
+        padding-right: 0; 
+        letter-spacing: 1px;
+    }
+}
+@media screen and (max-width : 820px) {
+    .propos-titre{
+        font-family: "Dosis", Helvetica, Arial, sans-serif;
+        font-size: 30px;
+        text-shadow: 2px 4px 20px rgb(189,20,224);;       
+    }
+}
+// Fichier Coordonnees.jsx
+.coordonnees{
+    padding: 30px;
+    &-titre {
+        font-family: "Dosis", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 60px;
+        text-shadow: 2px 4px 20px rgb(144,18,254);
+        letter-spacing: 15px;  
+        display: flex;
+        justify-content: center; 
+    }
+    &-div{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 60px;
+    }
+    &-us{
+        color: rgb(144,18,254);
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        text-align: left;
+    }
+    &-web{
+        color: rgb(144,18,254);
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        text-align: right;
+        // padding-right: 40px;
+        a{
+            color: inherit;
+        }
+    }
+}
+@media screen and (max-width : 820px) {
+    .coordonnees-titre{
+        font-size: 30px;     
+    }
+    .coordonnees-us{
+        font-size: 15px;
+    }
+    .coordonnees-web{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 520px) {
+    .coordonnees-titre{
+        font-size: 20px;     
+    }
+    .coordonnees-us{
+        font-size: 13px;
+    }
+    .coordonnees-web{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width : 420px) {
+    .coordonnees-titre{
+        font-size: 20px;     
+    }
+    .coordonnees-us{
+        font-size: 11px;
+        padding-right: 20px;
+    }
+    .coordonnees-web{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width : 350px) {
+    .coordonnees-titre{
+        font-size: 11px;
+    }
+    .coordonnees-us{
+        font-size: 10px;
+    }
+    .coordonnees-web{
+        font-size: 10px;
+    }
+}

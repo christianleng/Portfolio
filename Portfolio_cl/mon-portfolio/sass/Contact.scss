@@ -1,0 +1,112 @@
+.contact{
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-right: 60px;
+}
+.contact-titre{
+    font-family: "Dosis", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    text-shadow: 2px 4px 20px rgb(169, 12, 201);
+    letter-spacing: 15px; 
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+form{
+    padding-bottom: 120px;
+}
+.form-main{
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 160px;
+}
+.form-div{
+    padding-left: 20px;
+    padding-right: 250px;
+    &-un{
+        padding-bottom: 20px;
+  }
+}
+.form-input{
+    width: 300px;
+    border-color: transparent;
+    border-radius: 3px;
+    box-shadow: 2px 2px 20px rgb(169, 12, 201);
+}
+.form-textarea{
+    height: 170px;
+}
+input{
+    padding: 5px;
+}
+textarea{
+    padding: 5px;
+}
+.contact-bouton{
+    padding-top: 70px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    button{
+        border: 3px solid rgb(169, 12, 201);
+        color: rgb(169, 12, 201);
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+.error-textarea{
+    display: flex;
+    padding-left: 50px;
+    color: rgb(169, 12, 201);
+}
+.errorMessage{
+    display: flex;
+    padding-left: 50px;
+    color: rgb(169, 12, 201);
+}
+@media screen and (max-width : 800px) {
+    .errorMessage{
+        padding-left: 10px !important;
+    }
+}
+@media screen and (max-width : 860px) {
+    .contact-titre{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width : 610px) {
+    .contact-titre{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width : 540px) {
+    .contact-titre{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width : 1033px) {
+    .form-main{
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .form-div{
+        padding: 0;
+    }
+    .form-div-text{
+        margin: auto;
+    }
+}
+@media screen and (max-width : 471px) {
+    .form-input{
+        width: 260px;
+    }
+    .form-textarea{
+        width: 260px;
+    }
+}

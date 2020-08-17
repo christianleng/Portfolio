@@ -1,0 +1,151 @@
+.experience-formation{
+    padding: 70px 60px 70px 60px;
+}
+.container-formation{
+    .formation{
+        text-align: left;
+        &-titre{
+            font-family: "Dosis", Helvetica, Arial, sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 50px;
+            text-shadow: 2px 4px 20px rgb(144,18,254);
+        }
+        &-adresse{
+            color: #c9bdbd;
+            margin-right: 20px;
+        }
+        &-text{
+            color: rgb(144,18,254);
+            letter-spacing: 2px;
+            margin-right: 200px;
+        }
+        a{
+            padding: 8px;
+            font-size: 30px;
+            border-radius: 20px;
+            border: 2px solid rgb(144,18,254);
+            color: rgb(144,18,254);
+        }
+    }
+}
+@media screen and (max-width : 860px) {
+    .formation-titre{
+        font-size: 50px !important;
+        letter-spacing: 1px !important;  
+        text-transform: none !important;
+    }
+}
+@media screen and (max-width : 610px) {
+    .formation{
+        &-titre{
+            font-size: 40px !important;
+            letter-spacing: 1px !important;  
+            text-transform: none !important;
+        }
+        &-adresse{
+            font-size: 12px !important;
+        }
+        h4{
+            font-size: 10px;
+        }
+        &-text{
+            font-size: 11px !important;
+        }
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .formation{
+        &-text{
+            margin-right: 10px !important;
+        }
+    }
+}
+@media screen and (max-width : 410px) {
+    .formation{
+        &-titre{
+            font-size: 27px !important;
+            letter-spacing: 1px !important;  
+            text-transform: none !important; 
+        }
+        &-adresse{
+            font-size: 10px !important;
+        }
+        h4{
+            font-size: 10px;
+        }
+        &-text{
+            font-size: 15px;
+        }
+    }
+}
+.container-experience{
+    padding-top: 200px;
+    .experience{
+        text-align: right;
+        &-titre{
+            font-family: "Dosis", Helvetica, Arial, sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 50px;
+            text-shadow: 2px 4px 20px rgb(144,18,254);
+            // letter-spacing: 15px;  
+        }
+        &-adresse{
+            color: #c9bdbd;
+        }
+        &-ul{
+            li{
+                list-style: none;
+                text-align: right;
+                color: rgb(144,18,254);
+            }
+        }
+        a{
+            padding: 8px;
+            font-size: 30px;
+            border-radius: 20px;
+            border: 2px solid rgb(144,18,254);
+            color: rgb(144,18,254);
+        }
+    }
+}
+@media screen and (max-width : 860px) {
+    .container-experience{
+        padding-top: 150px;
+    }
+    .experience-titre{
+        font-size: 50px !important;
+        letter-spacing: 1px !important;  
+        text-transform: none !important;
+    }
+}
+@media screen and (max-width : 610px) {
+    .container-experience{
+        padding-top: 100px;
+    }
+    .experience-titre{
+        font-size: 30px !important;
+        letter-spacing: 1px !important;  
+        text-transform: none !important;
+    }
+}
+@media screen and (max-width : 410px) {
+    .container-experience{
+        padding-top: 50px;
+    }
+    .experience{
+        &-titre{
+            font-size: 25px !important;
+            letter-spacing: 1px !important;  
+            text-transform: none !important; 
+        }
+        &-adresse{
+            font-size: 10px !important;
+        }
+        h4{
+            font-size: 10px;
+        }
+    }
+}
