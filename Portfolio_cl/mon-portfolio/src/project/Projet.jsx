@@ -95,10 +95,24 @@ export default class Projet extends Component {
                                 <h3>Pushswap</h3>
                                 <p className="projet-date">Juillet 2020</p>
                                 <p>Projet qui a pour but de trier une liste de nombres avec le moins de coups possible.</p>
+                                <br></br>
                                 <p className="html-bottom">JavaScript</p>
                                 <ul className="ul-link-projet">
                                     <li>
-                                        <Button variant="outlined"><a href="https://github.com/christianleng/ALG_Pushswap" rel="noopener noreferrer" target="_blank">GitHub pour l'ALGO pushswap</a></Button>
+                                        <Button variant="outlined"><a href="https://github.com/christianleng/ALG_Pushswap" rel="noopener noreferrer" target="_blank">GitHub pour l'algo Pushswap</a></Button>
+                                    </li>
+                                </ul>
+                            </div>                                    
+                        </div>
+                        <div className="projet-box">
+                            <div className="projet-box-un" data-aos="fade-up">
+                                <h3>My_irc <span className="projet-en-cours">( projet en cours )</span></h3>
+                                <p className="projet-date">Octobre 2020</p>
+                                <p>Projet qui a pour but de réaliser un serveur IRC. Ce serveur peut accepter plusieurs connexions simultanées.</p>
+                                <p className="html-bottom projet-en-cours-l">React.js & Node.js & Express.js & Socket.io</p>
+                                <ul className="ul-link-projet">
+                                    <li>
+                                        <Button variant="outlined"><a href="https://github.com/christianleng/my_irc" rel="noopener noreferrer" target="_blank">GitHub du projet My_irc</a></Button>
                                     </li>
                                 </ul>
                             </div>                                    

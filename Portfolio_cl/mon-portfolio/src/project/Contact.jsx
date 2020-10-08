@@ -76,7 +76,10 @@ export default class Header extends Component {
         e.preventDefault();
         if(this.state.element !== "" ) {
             if(formValid(this.state)) {
-                
+                var service_id = "default_service";
+                var template_id = "template_wW3Zl91A";
+                var user_id = "user_RY69VNF68jekmUviH3tWd";
+                emailjs.send(service_id, template_id, this.state, user_id)  
             }        
             this.setState({
                 prenom: '',

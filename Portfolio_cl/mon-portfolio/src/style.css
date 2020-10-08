@@ -252,6 +252,10 @@ header {
     width: 260px;
   }
 }
+.projet-en-cours {
+  font-size: 12px;
+}
+
 .contact {
   padding-left: 60px;
   padding-top: 60px;
@@ -532,6 +536,8 @@ textarea {
 }
 .propos-container img {
   border-radius: 10px;
+  width: 240px;
+  height: 290px;
 }
 
 .propos {

@@ -35,7 +35,7 @@ export default class Competence extends Component {
                     <div className="container competence-container">
                         <div className="competence-langages">
                             <h4>langages informatiques :</h4>
-                            <p data-aos="fade-right">Html5 - Css3 - Sass - Bootstrap</p>                            
+                            <p data-aos="fade-right">Html5 - Css3 - Sass - Bootstrap - Material-ui</p>                            
                             <p data-aos="fade-right">JavaScript - React.js - Node.js - Express.js</p>                            
                             <p data-aos="fade-right">Git - GitHub - GitLab</p>                            
                             <p data-aos="fade-right">MySQL - MongoDB</p>                            
